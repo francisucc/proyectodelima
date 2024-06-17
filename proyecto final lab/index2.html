@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotización de Vuelo</title>
+    <script src="java.js"></script>
+    <link rel="stylesheet" href="css2.css">
+</head>
+<body>
+    <div class="div1">
+        <h1 class="titulo1">Cotización de Vuelo</h1>
+        <form>
+            <p>Origen
+                <select name="Origen" id="Origen">
+                    <option value="1">Argentina</option>
+                    <option value="2">Estados Unidos</option>
+                    <option value="3">Italia</option>
+                </select>
+            </p>
+            <p>Destino
+                <select name="Destino" id="Destino">
+                    <option value="1">Francia</option>
+                    <option value="2">Canadá</option>
+                    <option value="3">México</option>
+                </select>
+            </p>
+        </form>
+        <button type="button" onclick="precio()">Calcular Precio</button>
+        <button type="button" onclick="limpiarResultado()">Limpiar</button>
+        <p id="resultado">Resultado</p>
+    </div>
+</body>
+</html>

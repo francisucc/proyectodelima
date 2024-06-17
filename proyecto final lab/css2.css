@@ -1,0 +1,26 @@
+.div1 {
+    background-image: url(imagenes/AA3.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+    background-position: center center;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 3px white;
+    padding-top: 300px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.div1 p, .div1 h1, .div1 button, .div1 #resultado {
+    display: block;
+    border: 2px solid whitesmoke; 
+    box-shadow: 2px 2px 2px 3px black;
+    padding: 5px 10px; 
+    margin: 10px 0; 
+    background-color: rgba(255, 255, 255, 0.8); 
+    width: fit-content; 
